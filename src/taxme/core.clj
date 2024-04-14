@@ -10,7 +10,6 @@
   (let[input (io/reader *in*)]
    (.readLine input)))
 
-; the tax brackets are defined in constants
 (def positive-infinity Double/POSITIVE_INFINITY)
 (def ^:const tax-brackets 
   "The 2024 U.S. Federal tax brackets."
